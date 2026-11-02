@@ -1,0 +1,76 @@
+.around {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(211, 231, 248);
+}
+
+.loginForm {
+  width: 940px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.loginForm .fillForm {
+  width: 450px;
+  gap: 10px;
+  margin: 31px 84px 30px 0;
+}
+
+.loginForm .fillForm h1 {
+  font-weight: 700;
+  color: rgba(2, 41, 89, 1);
+}
+
+.loginForm .fillForm p {
+  color: rgba(150, 153, 170, 1);
+  font-weight: 700;
+  margin: 8px 0 30px;
+}
+
+.loginForm .fillForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.loginForm .fillForm form button {
+  align-self: self-end;
+  justify-self: end;
+  background-color: rgba(2, 41, 89, 1);
+  padding: 16px 24px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  margin-top: 50px;
+  font-family: "Ubuntu", sans-serif;
+}
+/* Input component CSS */
+.loginInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInputs label {
+  color: rgba(2, 41, 89, 1);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.loginInputs input {
+  border: 1px solid rgba(214, 217, 230, 1);
+  padding: 14.5px 0 14.5px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(150, 153, 170, 1);
+  opacity: 80%;
+}
